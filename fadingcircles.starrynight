@@ -1,0 +1,9 @@
+background(0,0,120);
+colorMode(RGB);
+noStroke();
+
+while(true) {
+  background(0, 0, 255, 0.1);
+  fill(255, random(360), 0);
+  ellipse(random(width), random(height), random(0, 10));
+}
