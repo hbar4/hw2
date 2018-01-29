@@ -1,0 +1,26 @@
+background(165,212,164)
+strokeWeight(4);
+stroke(255);
+// HSB color is also supported and can be specified
+// by value
+while(true) {
+  background(0, 0, 255, 0.1);
+var r;
+var o;
+var y;
+var b;
+
+r = color(204,0,0);
+o = color(255,153,51);
+y = color(252,219,87);
+b = color(247,165,102);
+
+fill(r); // Use updated 'c' as fill color
+rect(random(width), random(height), random(20,90), random(20,80)); // Draw rectangle
+fill(o); // Use updated 'c' as fill color
+rect(random(width), random(height), random(20,80), random(20,60)); // Draw rectangle
+fill(y); // Use 'c' as fill color
+rect(random(width), random(height), random(20,70), random(20,90)); // Draw rectangle
+fill(b); // Use updated 'c' as fill color
+rect(random(width), random(height), random(20,80), random(20,100)); // Draw rectangle
+}
