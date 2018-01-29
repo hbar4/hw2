@@ -1,0 +1,77 @@
+background(70)
+strokeWeight(4);
+// HSB color is also supported and can be specified
+// by value
+var c;
+
+c = color('hsba(200, 60%, 100%, 2)');
+fill(c); // Use updated 'c' as fill color
+rect(5, 5, 105, 50); // Draw rectangle
+c = color('hsba(200, 150%, 90%, 1)');
+fill(c); // Use updated 'c' as fill color
+rect(5, 60, 50, 50); // Draw rectangle
+c = color('hsb(200, 20%, 30%)');
+fill(c); // Use 'c' as fill color
+rect(5, 115, 50, 50); // Draw rectangle
+c = color('hsba(200, 40%, 10%, 0.5)');
+fill(c); // Use updated 'c' as fill color
+rect(5, 170, 50, 50); // Draw rectangle
+c = color('hsba(200, 90%, 20%, 0.5)');
+fill(c); // Use updated 'c' as fill color
+rect(5, 225, 50, 50); // Draw rectangle
+c = color('hsba(200, 40%, 50%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(5, 280, 50, 50); // Draw rectangle
+//new column//
+c = color('hsba(200, 150%, 10%, 1)');
+fill(c); // Use updated 'c' as fill color
+rect(60, 60, 50, 50); // Draw rectangle
+c = color('hsb(20, 20%, 30%)');
+fill(c); // Use 'c' as fill color
+rect(60, 115, 50, 50); // Draw rectangle
+c = color('hsba(200, 90%, 10%, 0.5)');
+fill(c); // Use updated 'c' as fill color
+rect(60, 170, 50, 50); // Draw rectangle
+c = color('hsba(200, 90%, 20%, 0.5)');
+fill(c); // Use updated 'c' as fill color
+rect(60, 225, 50, 50); // Draw rectangle
+c = color('hsba(200, 40%, 50%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(60, 280, 50, 50); // Draw rectangle
+//new column//
+c = color('hsba(200, 100%, 100%, 2)');
+fill(c); // Use updated 'c' as fill color
+rect(115, 5, 50, 50); // Draw rectangle
+c = color('hsba(200, 150%, 90%, 1)');
+fill(c); // Use updated 'c' as fill color
+rect(115, 60, 50, 50); // Draw rectangle
+c = color('hsb(200, 20%, 30%)');
+fill(c); // Use 'c' as fill color
+rect(115, 115, 50, 105); // Draw rectangle
+c = color('hsba(200, 90%, 20%, 0.5)');
+fill(c); // Use updated 'c' as fill color
+rect(115, 225, 50, 50); // Draw rectangle
+c = color('hsba(200, 40%, 50%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(115, 280, 50, 50); // Draw rectangle
+//BIG SQUARE//
+c = color('hsba(200, 40%, 100%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(170, 5, 160, 160); // Draw rectangle
+//small squares//
+c = color('hsba(200, 100%, 100%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(170, 170, 25, 25); // Draw rectangle
+c = color('hsba(200, 60%, 50%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(200, 170, 130, 25); // Draw rectangle
+c = color('hsba(200, 90%, 50%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(170, 200, 75, 130); // Draw rectangle
+//last corner//
+c = color('hsba(200, 90%, 30%, 3)');
+fill(c); // Use updated 'c' as fill color
+rect(250, 200, 80, 60); // Draw rectangle
+c = color('hsba(100, 80%, 50%, 4)');
+fill(c); // Use updated 'c' as fill color
+rect(250, 265, 80, 65); // Draw rectangle
